@@ -73,5 +73,5 @@ int[] array3 = CreateNewArr(array1, array2);
 int max1 = SearchMax(array1);
 int max2 = SearchMax(array2);
 
-int answer=(max1+max2)-SumMin(array3);
+int answer = (max1 + max2) - SumMin(array3);
 System.Console.WriteLine($"Искомое значение {answer}");
